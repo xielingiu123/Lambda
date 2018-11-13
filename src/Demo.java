@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 /**
  * @Description: Lambda
@@ -90,6 +92,7 @@ public class Demo {
      */
     @Test
     public void fun4(){
+
         List<Person> javaProgrammers = new ArrayList<Person>() {
             {
                 add(new Person("Elsdon", "Jaycob", "Java programmer", "male", 43, 2000));
@@ -120,9 +123,36 @@ public class Demo {
             }
         };
 
+        //使用foreach迭代输出上述集合
         System.out.println("所有程序员的姓名:");
         javaProgrammers.forEach((p) -> System.out.printf("%s %s; ", p.getFirstName(), p.getLastName()));
         phpProgrammers.forEach((p) -> System.out.printf("%s %s; ", p.getFirstName(), p.getLastName()));
+
+        //使用forEach方法,增加程序员的工资5%
+             //Consumer是一个功能接口，因此可以用作lambda表达式或方法引用的赋值目标
+        Consumer<Person> giveRase = e->e.setSalary(e.getSalary()/100*5+e.getSalary());
+        javaProgrammers.forEach(giveRase);
+        phpProgrammers.forEach(giveRase);
+
+        //滤器filter() ,让我们显示月薪超过1400美元的PHP程序员
+        System.out.println("让我们显示月薪超过1400美元的PHP程序员:");
+        phpProgrammers.stream()
+                .filter((p)->p.getSalary()>1400)
+                .forEach((p)->System.out.println("月薪超过1400美元的PHP程序员"+p));
+
+        //重用过滤器
+            //Predicate是一个函数式接口，可以被应用于lambda表达式和方法引用
+        Predicate<Person> ageFilter = (p)->p.getAge()>20;
+        Predicate<Person> salaryFilter = (p)->p.getSalary()>1400;
+        Predicate<Person> genderFilter = (p)->("female").equals(p.getGender());
+
+        javaProgrammers.stream()
+                .filter(ageFilter)
+                .filter(salaryFilter)
+                .filter(genderFilter)
+                .forEach((p)->System.out.println(p));
+
+
     }
 
 }
