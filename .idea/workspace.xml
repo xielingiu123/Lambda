@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44df4f6-0ef1-4846-82fe-a59ed0076039" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$1.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$2.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$3.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$4.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$5.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Lambda/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Lambda/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Lambda/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lambda/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/src/Demo.java" afterPath="$PROJECT_DIR$/../Lambda/src/Demo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proxytest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../proxytest/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proxytest/proxytest.iml" afterPath="$PROJECT_DIR$/../proxytest/proxytest.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/../Lambda/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +23,10 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Lambda/src/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="210" column="48" lean-forward="false" selection-start-line="210" selection-start-column="48" selection-end-line="210" selection-end-column="48" />
+            <state relative-caret-position="-684">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#fun1#0;class#Demo#0" expanded="false" />
                 <element signature="method#fun2#0;class#Demo#0" expanded="false" />
                 <element signature="method#fun3#0;class#Demo#0" expanded="false" />
                 <element signature="class#2562:3523" expanded="false" />
@@ -38,6 +34,16 @@
                 <element signature="class#3568:4522" expanded="false" />
                 <element signature="initializer##0;class#3568:4522" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Iterable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/lang/Iterable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +75,7 @@
         <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="306" column="16" lean-forward="true" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="18" />
+              <caret line="306" column="16" lean-forward="false" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -78,9 +84,13 @@
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="579" column="56" lean-forward="false" selection-start-line="579" selection-start-column="50" selection-end-line="579" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="14117">
+              <caret line="858" column="34" lean-forward="false" selection-start-line="858" selection-start-column="23" selection-end-line="858" selection-end-column="34" />
+              <folding>
+                <element signature="docComment;class#ArrayList#0" expanded="false" />
+                <element signature="e#30684#30685#0" expanded="true" />
+                <element signature="e#30716#30717#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,16 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-388">
               <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="24" selection-end-line="400" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/BaseStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -137,16 +137,6 @@
                 <element signature="e#26957#26958#0" expanded="true" />
                 <element signature="e#27022#27023#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamSupport.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/StreamSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -230,8 +220,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proxytest" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -731,8 +724,16 @@
       <option name="presentableId" value="Default" />
       <updated>1542005103198</updated>
       <workItem from="1542005107255" duration="10252000" />
-      <workItem from="1542074114065" duration="11114000" />
+      <workItem from="1542074114065" duration="12784000" />
     </task>
+    <task id="LOCAL-00001" summary="lambdas和streams的复杂示例,使用lambda表达式与Comparator 类来对Java集合进行排序">
+      <created>1542094323968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542094323968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -768,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21366000" />
+    <option name="totallyTimeSpent" value="23036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,6 +851,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lambdas和streams的复杂示例,使用lambda表达式与Comparator 类来对Java集合进行排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambdas和streams的复杂示例,使用lambda表达式与Comparator 类来对Java集合进行排序" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -867,7 +872,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#fun1#0;class#Demo#0" expanded="false" />
             <element signature="method#fun2#0;class#Demo#0" expanded="false" />
             <element signature="method#fun3#0;class#Demo#0" expanded="false" />
             <element signature="class#2562:3523" expanded="false" />
@@ -1038,15 +1042,7 @@
     <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="306" column="16" lean-forward="true" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="579" column="56" lean-forward="false" selection-start-line="579" selection-start-column="50" selection-end-line="579" selection-end-column="56" />
+          <caret line="306" column="16" lean-forward="false" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1070,13 +1066,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14117">
+          <caret line="858" column="34" lean-forward="false" selection-start-line="858" selection-start-column="23" selection-end-line="858" selection-end-column="34" />
+          <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="false" />
+            <element signature="e#30684#30685#0" expanded="true" />
+            <element signature="e#30716#30717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1918">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Lambda/src/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="210" column="48" lean-forward="false" selection-start-line="210" selection-start-column="48" selection-end-line="210" selection-end-column="48" />
+        <state relative-caret-position="-684">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#fun1#0;class#Demo#0" expanded="false" />
             <element signature="method#fun2#0;class#Demo#0" expanded="false" />
             <element signature="method#fun3#0;class#Demo#0" expanded="false" />
             <element signature="class#2562:3523" expanded="false" />
@@ -1087,5 +1112,92 @@
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>proxytest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
