@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44df4f6-0ef1-4846-82fe-a59ed0076039" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$1.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$2.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$3.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$4.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$5.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo.class" afterPath="$PROJECT_DIR$/../Lambda/out/production/Lambda/Demo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Lambda/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Lambda/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lambda/src/Demo.java" afterPath="$PROJECT_DIR$/../Lambda/src/Demo.java" />
     </list>
@@ -22,52 +26,127 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Lambda/src/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="150" column="37" lean-forward="true" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+            <state relative-caret-position="461">
+              <caret line="210" column="48" lean-forward="false" selection-start-line="210" selection-start-column="48" selection-end-line="210" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#fun1#0;class#Demo#0" expanded="false" />
                 <element signature="method#fun2#0;class#Demo#0" expanded="false" />
                 <element signature="method#fun3#0;class#Demo#0" expanded="false" />
-                <element signature="class#2159:3120" expanded="false" />
-                <element signature="initializer##0;class#2159:3120" expanded="false" />
-                <element signature="class#3165:4119" expanded="false" />
-                <element signature="initializer##0;class#3165:4119" expanded="false" />
+                <element signature="class#2562:3523" expanded="false" />
+                <element signature="initializer##0;class#2562:3523" expanded="false" />
+                <element signature="class#3568:4522" expanded="false" />
+                <element signature="initializer##0;class#3568:4522" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/function/Predicate.java">
+      <file leaf-file-name="TreeSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/TreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="28" />
-              <folding />
+              <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+              <folding>
+                <element signature="e#4697#4698#0" expanded="true" />
+                <element signature="e#4742#4743#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
+      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <caret line="230" column="63" lean-forward="false" selection-start-line="230" selection-start-column="63" selection-end-line="230" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Lambda/src/Person.java">
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="125">
+              <caret line="306" column="16" lean-forward="true" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="579" column="56" lean-forward="false" selection-start-line="579" selection-start-column="50" selection-end-line="579" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="806" column="13" lean-forward="false" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReferencePipeline.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/ReferencePipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-388">
+              <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="24" selection-end-line="400" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/BaseStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="579" column="16" lean-forward="false" selection-start-line="579" selection-start-column="16" selection-end-line="579" selection-end-column="16" />
               <folding>
-                <element signature="method#toString#0;class#Person#0" expanded="false" />
-                <element signature="method#Person#0;class#Person#0" expanded="false" />
-                <element signature="method#Person#1;class#Person#0" expanded="false" />
+                <element signature="docComment;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#size#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#isEmpty#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#contains#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#iterator#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#toArray#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#toArray#1;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#add#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#remove#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#containsAll#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#addAll#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#removeAll#0;class#Collection#0" expanded="false" />
+                <element signature="docComment;method#removeIf#0;class#Collection#0" expanded="false" />
+                <element signature="e#26957#26958#0" expanded="true" />
+                <element signature="e#27022#27023#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamSupport.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/StreamSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -641,6 +720,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration>C:\Users\c3tec\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e44df4f6-0ef1-4846-82fe-a59ed0076039" name="Default" comment="" />
@@ -649,14 +731,11 @@
       <option name="presentableId" value="Default" />
       <updated>1542005103198</updated>
       <workItem from="1542005107255" duration="10252000" />
-      <workItem from="1542074114065" duration="4751000" />
+      <workItem from="1542074114065" duration="11114000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_fun - 2018.11.12 at 15h 04m 37s.xml">
-      <configuration name="Demo.fun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Demo_fun - 2018.11.12 at 15h 04m 54s.xml">
       <configuration name="Demo.fun" configurationId="JUnit" />
     </history-entry>
@@ -684,9 +763,12 @@
     <history-entry file="Demo_fun4 - 2018.11.13 at 10h 33m 59s.xml">
       <configuration name="Demo.fun4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Demo_fun4 - 2018.11.13 at 14h 38m 59s.xml">
+      <configuration name="Demo.fun4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15003000" />
+    <option name="totallyTimeSpent" value="21366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +781,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -711,13 +792,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4020979" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3374126" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -729,7 +811,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,7 +836,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40314135" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3374126" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -789,10 +870,10 @@
             <element signature="method#fun1#0;class#Demo#0" expanded="false" />
             <element signature="method#fun2#0;class#Demo#0" expanded="false" />
             <element signature="method#fun3#0;class#Demo#0" expanded="false" />
-            <element signature="class#2159:3120" expanded="false" />
-            <element signature="initializer##0;class#2159:3120" expanded="false" />
-            <element signature="class#3165:4119" expanded="false" />
-            <element signature="initializer##0;class#3165:4119" expanded="false" />
+            <element signature="class#2562:3523" expanded="false" />
+            <element signature="initializer##0;class#2562:3523" expanded="false" />
+            <element signature="class#3568:4522" expanded="false" />
+            <element signature="initializer##0;class#3568:4522" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,19 +979,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/StreamSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/BaseStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="24" selection-end-line="400" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="579" column="16" lean-forward="false" selection-start-line="579" selection-start-column="16" selection-end-line="579" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#toArray#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#toArray#1;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#containsAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#removeAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#removeIf#0;class#Collection#0" expanded="false" />
+            <element signature="e#26957#26958#0" expanded="true" />
+            <element signature="e#27022#27023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="230" column="63" lean-forward="false" selection-start-line="230" selection-start-column="63" selection-end-line="230" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="306" column="16" lean-forward="true" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="579" column="56" lean-forward="false" selection-start-line="579" selection-start-column="50" selection-end-line="579" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="806" column="13" lean-forward="false" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../tools/kaifa/jdk1.8.0_131/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+          <folding>
+            <element signature="e#4697#4698#0" expanded="true" />
+            <element signature="e#4742#4743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Lambda/src/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="150" column="37" lean-forward="true" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+        <state relative-caret-position="461">
+          <caret line="210" column="48" lean-forward="false" selection-start-line="210" selection-start-column="48" selection-end-line="210" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#fun1#0;class#Demo#0" expanded="false" />
             <element signature="method#fun2#0;class#Demo#0" expanded="false" />
             <element signature="method#fun3#0;class#Demo#0" expanded="false" />
-            <element signature="class#2159:3120" expanded="false" />
-            <element signature="initializer##0;class#2159:3120" expanded="false" />
-            <element signature="class#3165:4119" expanded="false" />
-            <element signature="initializer##0;class#3165:4119" expanded="false" />
+            <element signature="class#2562:3523" expanded="false" />
+            <element signature="initializer##0;class#2562:3523" expanded="false" />
+            <element signature="class#3568:4522" expanded="false" />
+            <element signature="initializer##0;class#3568:4522" expanded="false" />
           </folding>
         </state>
       </provider>

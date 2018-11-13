@@ -1,11 +1,12 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 
 /**
  * @Description: Lambda
@@ -89,6 +90,16 @@ public class Demo {
 
     /**
      * 使用Lambdas和Streams
+     *
+     * stream()优点
+     *  1.无存储。stream不是一种数据结构，它只是某种数据源的一个视图，数据源可以是一个数组
+     *  ，Java容器或I/O channel等。
+     *  2.为函数式编程而生。对stream的任何修改都不会修改背后的数据源，
+     *   比如对stream执行过滤操作并不会删除被过滤的元素，而是会产生一个不包含被过滤元素的新stream。
+     *  3.惰式执行。stream上的操作并不会立即执行，只有等到用户真正需要结果的时候才会执行。
+     *  4.可消费性。stream只能被“消费”一次，一旦遍历过就会失效，就像容器的迭代器那样，
+     *  想要再次遍历必须重新生成。
+     *
      */
     @Test
     public void fun4(){
@@ -153,6 +164,51 @@ public class Demo {
                 .forEach((p)->System.out.println(p));
 
 
+        //根据 name 排序,并显示前5个 Java programmers:
+            //collect收集器，一种通用的、从流生成复杂值的结构
+        System.out.println("根据 name 排序,并显示前5个 Java programmers:");
+        List<Person> personList = javaProgrammers
+                .stream()
+                .sorted((p,p2)->p.getFirstName().compareTo(p2.getFirstName()))
+                .limit(5)
+                .collect(toList());
+
+        System.out.println(personList);
+
+        //将 PHP programmers 的 first name 拼接成字符串
+        System.out.println("将 PHP programmers 的 first name 拼接成字符串:");
+        String personName = javaProgrammers.stream()
+                .map(Person::getFirstName)
+                .collect(joining(";"));
+
+        //将 Java programmers 的 first name 存放到 Set:
+        System.out.println("将 Java programmers 的 first name 存放到 Set:");
+        Set<String> personSet = phpProgrammers.stream()
+                .map(Person::getFirstName)
+                .collect(Collectors.toSet());
+
+        //将 Java programmers 的 first name 存放到 TreeSet:
+        System.out.println("将 Java programmers 的 first name 存放到 TreeSet:");
+        TreeSet<String> personTree = javaProgrammers.stream()
+                .map(Person::getFirstName)
+                .collect(Collectors.toCollection(TreeSet::new));
+
+        //Streams 还可以是并行的(parallel)
+        System.out.println("计算付给 Java programmers 的所有money:");
+        int totalSalary = javaProgrammers.parallelStream()
+                .mapToInt(Person::getSalary)
+                .sum();
+
+        //使用summaryStatistics方法获得stream 中元素的各种汇总数据
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        IntSummaryStatistics count = numbers.stream()
+                .mapToInt((x)->x)
+                .summaryStatistics();
+
+        System.out.println("List中最大的数字 : " + count.getMax());
+        System.out.println("List中最小的数字 : " + count.getMin());
+        System.out.println("所有数字的总和   : " + count.getSum());
+        System.out.println("所有数字的平均值 : " + count.getAverage());
     }
 
 }
